@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.canvas{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.ball-text{
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 10vw;
+    right: 20%;
+    bottom: 40%;
+}
+.h2{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.729);
+}
+@media screen and (max-width: 1000px) {
+    .ball-text2 {
+      display: none;
+    }
+  }
